@@ -47,6 +47,7 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -63,6 +64,7 @@ body {
   text-align: left;
   background-color: #e4e4e4;
 }
+
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
@@ -4004,6 +4006,7 @@ input[type=button].btn-block {
 }
 
 .navbar {
+	
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -4017,6 +4020,7 @@ input[type=button].btn-block {
 .navbar .container-md,
 .navbar .container-lg,
 .navbar .container-xl {
+	
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -4094,6 +4098,7 @@ input[type=button].btn-block {
 .navbar-expand-sm > .container-xl {
     padding-right: 0;
     padding-left: 0;
+		
   }
 }
 @media (min-width: 576px) {
@@ -4110,6 +4115,7 @@ input[type=button].btn-block {
   .navbar-expand-sm .navbar-nav .nav-link {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
+	
   }
   .navbar-expand-sm > .container,
 .navbar-expand-sm > .container-fluid,
@@ -4118,10 +4124,12 @@ input[type=button].btn-block {
 .navbar-expand-sm > .container-lg,
 .navbar-expand-sm > .container-xl {
     flex-wrap: nowrap;
+	
   }
   .navbar-expand-sm .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
+	
   }
   .navbar-expand-sm .navbar-toggler {
     display: none;
@@ -4145,6 +4153,7 @@ input[type=button].btn-block {
   }
   .navbar-expand-md .navbar-nav {
     flex-direction: row;
+	
   }
   .navbar-expand-md .navbar-nav .dropdown-menu {
     position: absolute;
@@ -4363,6 +4372,7 @@ input[type=button].btn-block {
 }
 .navbar-dark .navbar-text a {
   color: #fff;
+  
 }
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
   color: #fff;
@@ -10065,6 +10075,7 @@ p.lead {
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
+ 
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
@@ -10189,12 +10200,13 @@ section.resume-section {
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 5rem;
+  padding-top: 3rem;
   padding-bottom: 5rem;
   max-width: 75rem;
 }
 section.resume-section .resume-section-content {
   width: 100%;
+ 
 }
 
 @media (min-width: 768px) {
